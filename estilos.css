@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+img{
+    width: 500px;
+    display: block;
+    height: 400px;
+}
+.container{
+    display: flex;
+    padding: 30px;
+    color: white;
+    background:#222222;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 40px;
+}
+.menu{
+    width: 500px;
+    font-size: 20px;
+    margin-top: 18px;
+    
+}
+.menu__link{
+    text-decoration: none;
+    color:#e3e4e5;
+    font-size: 20px;  
+    padding: 20px;
+}
+.caja{
+    width: 100%;
+    background-image: url(img/trombone.jpg); 
+}
+.intro{
+    padding: 10px 150px;
+}
+.intro__txt{
+    font-size: 20px;
+    text-align: justify;
+    color: white;
+}
+.biografias{
+    margin-left: 60px;
+    margin-right: 60px;
+    display: flex;
+    padding: 30px;
+       
+}
+.biografias__content{
+    margin-left: 50px;
+    padding: 20px;
+    display: block;
+    color:white
+}
+.biografias__tittle{
+    text-align: center;
+    font-size: 30px;
+}
+.biografias__txt{
+    text-align: justify;
+    font-size: 20px;
+}
+.videos{
+    padding: 100px;
+}
